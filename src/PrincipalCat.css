@@ -1,0 +1,14 @@
+.principal-cat {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}

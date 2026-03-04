@@ -1,0 +1,28 @@
+.cat-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+
+.cat-list-item{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+.selected{
+    border: 5px solid red;
+}
+
